@@ -1,0 +1,40 @@
+{
+    "ListProgessionComponents":
+        [
+            {
+                "id":1,    
+                "title": "Today's Money",
+                "amount": "53000",
+                "status":"positive",
+                "progression":"55",
+                "icon":"src/assets/icon/wallet.svg"
+                
+            },
+            {
+                "id":2,    
+                "title": "Today's Users",
+                "amount": "2300",
+                "status":"positive",
+                "progression":"5",
+                "icon":"src/assets/icon/outline.svg"
+            },
+            {
+                "id":3,    
+                "title": "New client",
+                "amount": "3052",
+                "status":"negative",
+                "progression":"14",
+                "icon":"src/assets/icon/text.svg"
+            },
+            {
+                "id":4,    
+                "title": "Total Sales",
+                "amount": "173000",
+                "status":"positive",
+                "progression":"8",
+                "icon":"src/assets/icon/shop.png"
+            }
+           
+        ]
+
+}
