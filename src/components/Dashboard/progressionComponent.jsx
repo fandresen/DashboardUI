@@ -4,7 +4,7 @@ const ProgressionComponent = ({title,amount,status,progression,icon})=>{
 return (
 <>
 
-   <div className="flex flex-row justify-between max-w-[20vw] min-h-[10vh] m-1 bg-white p-3 rounded-xl">
+   <div className="flex flex-row justify-between min-w-[20vw] min-h-[10vh] m-1 bg-white p-3 rounded-xl">
      <div className="pl-5">
         <h1 className="text-[#A0AEC0] text-sm pt-3 pb-2 font-bold">{title}</h1>
         <h3 className="text-[#2D3748] text-2xl inline font-bold">{amount}</h3>

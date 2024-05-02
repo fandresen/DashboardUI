@@ -5,22 +5,15 @@ import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
 
-  
   return (
   <>
-    
-    <div className='flex'>
-          <div className='flex'>
+      <div className="flex">
               <Menu/>
-          </div>
-
           <div>
+              <Header/>
               <Dashboard/>
           </div>
-    </div>
-    
-    
-    
+      </div> 
   </>
   )
 }
