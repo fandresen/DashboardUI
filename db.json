@@ -1,0 +1,81 @@
+{
+    "ListProgessionComponents":
+        [
+            {
+                "id":1,    
+                "title": "Today's Money",
+                "amount": "53000",
+                "status":"positive",
+                "progression":"55",
+                "icon":"src/assets/icon/wallet.svg"
+                
+            },
+            {
+                "id":2,    
+                "title": "Today's Users",
+                "amount": "2300",
+                "status":"positive",
+                "progression":"5",
+                "icon":"src/assets/icon/outline.svg"
+            },
+            {
+                "id":3,    
+                "title": "New client",
+                "amount": "3052",
+                "status":"negative",
+                "progression":"14",
+                "icon":"src/assets/icon/text.svg"
+            },
+            {
+                "id":4,    
+                "title": "Total Sales",
+                "amount": "173000",
+                "status":"positive",
+                "progression":"8",
+                "icon":"src/assets/icon/shop.png"
+            }
+           
+        ],
+        "chart1Data": [
+            {"value":"320"},
+            {"value":"210"},
+            {"value":"500"},
+            {"value":"280"},
+            {"value":"100"},
+            {"value":"400"},
+            {"value":"450"},
+            {"value":"300"},
+            {"value":"150"}
+        ],
+        "ActiveUserData": [
+            {
+                "id":1,
+                "title":"Users",
+                "value":"32984",
+                "progression":"6",
+                "icon":"src/assets/icon/wallet.svg"
+            },
+            {
+                "id":2,
+                "title":"Clicks",
+                "value":"2,42m",
+                "progression":"9",
+                "icon":"src/assets/icon/rocket.svg"
+            },
+            {
+                "id":3,
+                "title":"Sales",
+                "value":"2400",
+                "progression":"4",
+                "icon":"src/assets/icon/shop.png"
+            },
+            {
+                "id":4,
+                "title":"Items",
+                "value":"320",
+                "progression":"5",
+                "icon":"src/assets/icon/Vector.png"
+            }
+        ]
+
+}
