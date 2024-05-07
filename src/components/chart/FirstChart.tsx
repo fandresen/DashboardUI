@@ -36,8 +36,8 @@ const FirstChart = ({data})=>{
   
     return (
     <>
-        <div className="bg-gradient-to-tr from-[#313860] to-[#151928] w-[50vw] rounded-3xl p-5 md:scale-[0.6] xl:scale-50 relative ml-[-6rem] mt-[-8rem]">
-            <div className="absolute left-8 bottom-10">
+        <div className="bg-gradient-to-tr from-[#313860] to-[#151928] w-[38vw] rounded-3xl p-2 max-h-[42vh]">
+            <div className=" left-8 bottom-10">
                 <ul className="text-2xl font-bold min-h-[38vh] flex flex-col justify-between">
                     <li className="text-white ">500</li>
                     <li className="text-white ">400</li>
@@ -47,7 +47,7 @@ const FirstChart = ({data})=>{
                     <li className="text-white ">0</li>
                 </ul>
             </div>
-            <svg ref={svgRef} className="ml-32 scale-y-75 lg:w-[100px] lg:h-[300px] xl:w-[900px] xl:h-[400px]">
+            <svg ref={svgRef} className="">
             </svg>
         </div>
     </>

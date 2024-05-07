@@ -4,6 +4,9 @@ import ProgressionComponent from "./progressionComponent";
 import axios from "axios";
 import Activeuser from "./ActiveUser";
 import SalesOverview from "../chart/SalesOverviex";
+import { MembersPic } from "./members";
+import { ProjectBox } from "./Project";
+import { OrderOveriew } from "./OrderOverview";
 
 export interface dataProgression {
   id:number,
@@ -16,7 +19,7 @@ export interface dataProgression {
 
 const Dashboard = ()=>{
 
-    const [progressionData,setprogressionData] = useState<object>([])
+    const [progressionData,setprogressionData] = useState<dataProgression[]>([])
 
     const fetchData = async ()=>{
         const response = (await axios.get('http://192.168.1.124:3000/ListProgessionComponents')).data;
@@ -48,6 +51,16 @@ return (
         <Activeuser/>
         <SalesOverview/>
       </div>
+      <div className="flex">
+        <div className="grow-0">
+          <ProjectBox/>
+        </div>
+        <div className="grow">
+          <OrderOveriew/>
+        </div>
+
+      </div>
+      
      
 </>
 )

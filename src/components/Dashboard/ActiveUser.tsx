@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import FirstChart from "../chart/FirstChart";
+import { ProgessionBar } from "./completion";
 
 interface dataActiveUserData {
     id:number,
@@ -35,9 +36,9 @@ return (
     <>
         <div className="w-[40vw] bg-white rounded-3xl mt-5">
             <FirstChart data={dataChart1}/>
-            <h1 className="text-xl font-semibold text-[#2D3748]">Active Users</h1>
-            <h2 className="text-[#A0AEC0]"><span className="text-[#4FD1C5]">(+23)</span>than last Week</h2>
-            <div className="flex">
+            <h1 className="text-2xl mt-4 ml-3 font-semibold text-[#2D3748]">Active Users</h1>
+            <h2 className="text-[#A0AEC0] ml-3"><span className="text-[#4FD1C5]">(+23)</span>than last Week</h2>
+            <div className="flex justify-around">
                 {
                     dataActiveUser.map((data:dataActiveUserData)=>(
                         <ActiveuserData key={data.id}
@@ -70,13 +71,7 @@ const ActiveuserData = ({title,value,icon,progression}:dataActiveUserData)=>{
                 <div className="pt-2">
                     <h3 className="text-[#2D3748] text-2xl inline font-bold">{value}</h3>
                       {/* Progress */}
-                    <h3 className="text-[#48BB78] text-lg ml-3 inline font-bold">{progression}</h3>
-                    <div className="space-y-5">
-                        <div className="flex w-full h-2 bg-gray-100 rounded-full overflow-hidden dark:bg-gray-100" role="progressbar" aria-valuenow={10} aria-valuemin={0} aria-valuemax={100}>
-                        <div className={`flex flex-col justify-center rounded-full overflow-hidden bg-[#4FD1C5] text-xs text-[#4FD1C5] text-center whitespace-nowrap transition duration-500 dark:bg-[#4FD1C5] w-[${80}%]`}></div>
-
-                        </div>
-                    </div>
+                    <ProgessionBar width={progression}/>
 
                 </div>
             </div>

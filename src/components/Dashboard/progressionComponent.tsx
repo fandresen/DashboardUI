@@ -1,5 +1,6 @@
+import { dataProgression } from "./Dashboard";
 
-const ProgressionComponent = ({title,amount,status,progression,icon})=>{
+const ProgressionComponent = ({title,amount,status,progression,icon}:dataProgression)=>{
 
     return (
     <>

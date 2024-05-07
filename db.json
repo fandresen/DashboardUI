@@ -52,7 +52,7 @@
                 "id":1,
                 "title":"Users",
                 "value":"32984",
-                "progression":"6",
+                "progression":"66",
                 "icon":"src/assets/icon/wallet.svg"
             },
             {
@@ -66,16 +66,182 @@
                 "id":3,
                 "title":"Sales",
                 "value":"2400",
-                "progression":"4",
+                "progression":"42",
                 "icon":"src/assets/icon/shop.png"
             },
             {
                 "id":4,
                 "title":"Items",
                 "value":"320",
-                "progression":"5",
+                "progression":"50",
                 "icon":"src/assets/icon/Vector.png"
             }
+        ],
+        "Project":[
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/adobe.png",
+                "description":"Chakra Soft UI Version",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    },
+                    {
+                        "id":3,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrapfem.png"
+                    },
+                    {
+                        "id":4,
+                        "src":"/src/assets/images/images/profilePic/Image-Wraph.png"
+                    },
+                    {
+                        "id":5,
+                        "src":"/src/assets/images/images/profilePic/Image-Wraph.png"
+                    }
+                ],
+                "budget":14000,
+                "completion":60
+            },
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/a.png",
+                "description":"Add progress Track",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    }
+                ],
+                "budget":3000,
+                "completion":10
+            },
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/4.png",
+                "description":"Fix Plateform Errors",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    }
+                ],
+                "budget":0,
+                "completion":100
+            },
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/spotify.png",
+                "description":"Launch our Mobile App",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    },
+                    {
+                        "id":3,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrapfem.png"
+                    },
+                    {
+                        "id":4,
+                        "src":"/src/assets/images/images/profilePic/Image-Wraph.png"
+                    }
+                ],
+                "budget":32000,
+                "completion":100
+            },
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/losange.png",
+                "description":"Add the New Privcing Page",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    },
+                    {
+                        "id":3,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrapfem.png"
+                    },
+                    {
+                        "id":4,
+                        "src":"/src/assets/images/images/profilePic/Image-Wraph.png"
+                    },
+                    {
+                        "id":5,
+                        "src":"/src/assets/images/images/profilePic/Image-Wraph.png"
+                    }
+                ],
+                "budget":400,
+                "completion":25
+            },
+            {
+                "logo":"/src/assets/icon/CompaniesLogo/in.png",
+                "description":"Redesign New Online Shop",
+                "members":[
+                    {
+                        "id":1,
+                        "src":"/src/assets/images/images/profilePic/Image-Wrap (3).png"
+                    },
+                    {
+                        "id":2,
+                        "src":"/src/assets/images/images/profilePic/Image-WrapA.png"
+                    }
+                ],
+                "budget":7600,
+                "completion":40
+            }
+            
+        
+        
+        ],
+        "OrderOverview":[
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"$2400, Design changes",
+                "date":"22 DEC 7:20 PM"
+            },
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"New order #4219423",
+                "date":"21 DEC 11:21 PM"
+            },
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"Server Paylent for April",
+                "date":"21 DEC 9:28"
+            },
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"New card added for order #3210145",
+                "date":"20 DEC 3:52 PM"
+            },
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"Unlock packages for Development",
+                "date":"18 DEC 4:41 PM"
+            },
+            {
+                "icon":"src/assets/icon/outline.svg",
+                "overview":"New order #9851258",
+                "date":"18 DEC 4:41 PM"
+            }
         ]
+        
 
 }
